@@ -1,20 +1,6 @@
 'use strict';
 
 module.exports.hello = async (event) => {
-  if(event.queryStringParameters && event.queryStringParameters.name){
-
-      return {
-
-        statusCode: 200,
-        body: JSON.stringify(
-          {
-            message: 'hello '+ event.queryStringParameters.name + ',nice to meet you!'
-          },
-          null,
-          2
-        ),
-      };
-  }
 
   return {
 
