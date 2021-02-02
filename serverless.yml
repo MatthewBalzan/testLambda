@@ -25,7 +25,7 @@ functions:
 plugins:
   - serverless-plugin-typescript
   - serverless-mocha-plugin
-  - serverless-plugin-script
+  - serverless-plugin-scripts
 
 custom:
   scripts:
